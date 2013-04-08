@@ -5,11 +5,11 @@ GIT
     database_cleaner (0.9.1)
 
 GIT
-  remote: git://github.com/railstutorial/spork-rails.git
-  revision: 8b49e3d6ea85b2f1d23eb3fb148b7e971eb4e614
-  branch: rails-4
+  remote: git://github.com/koriroys/spork-rails.git
+  revision: 355a354e9de328e86a9f3fe306f243745950a7d1
   specs:
     spork-rails (3.2.1)
+      rails (>= 3.0.0)
       spork (>= 1.0rc0)
 
 GEM
@@ -220,7 +220,7 @@ DEPENDENCIES
   factory_girl_rails (= 4.2.0)
   faker (= 1.1.2)
   guard-rspec (= 2.5.0)
-  guard-spork (= 1.5.0)
+  guard-spork
   jbuilder (= 1.0.1)
   jquery-rails (= 2.2.1)
   libnotify (= 0.8.0)
