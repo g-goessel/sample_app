@@ -12,7 +12,7 @@ group :development, :test do
   gem 'sqlite3', '1.3.7'
   gem 'rspec-rails', '2.13.0'
   gem 'guard-rspec', '2.5.0'
-  gem 'spork-rails', git: 'git://github.com/koriroys/spork-rails.git'
+  gem 'spork-rails', github: 'A-gen/spork-rails'
   gem 'guard-spork'
 end
 
