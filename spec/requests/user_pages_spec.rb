@@ -1,4 +1,5 @@
 require 'spec_helper'
+include Capybara::DSL
 
 describe "User pages" do
 
@@ -60,5 +61,7 @@ end
 
       it { should have_content('error') }
     end
+
+
   end
 end
